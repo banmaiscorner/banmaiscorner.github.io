@@ -163,4 +163,8 @@ td {
 	padding-top: 0.5em;
 	padding-left: 1.5em;	
 }
-
+#time_changing {
+	font-weight: bold;
+	font-style: normal;
+	font-size: 15px;
+}
