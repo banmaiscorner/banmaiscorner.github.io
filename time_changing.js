@@ -66,5 +66,6 @@ if (c_hour>12)
 
 document.getElementById("time_changing").innerHTML=
 	"Your current time is: "+c_Month+" "+c_date+", "+current_time.getFullYear()+" "+c_hour+":"+c_min+" "+c_buoi+"</br>"+
-	"My current time is: "+m_Month+" "+m_date+", "+my_time.getFullYear()+" "+m_hour+":"+m_min+" "+m_buoi;
+	"My current time is: "+m_Month+" "+m_date+", "+my_time.getFullYear()+" "+m_hour+":"+m_min+" "+m_buoi+"</br>"+
+	"<p>Copyright 2016</p>";
 

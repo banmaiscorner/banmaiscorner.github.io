@@ -75,11 +75,14 @@ header{ position:relative;
 	width:auto;}
 	   
 
-#wrapper {	
-		min-width: 700px;
-		max-width:1024px;
-		margin-right:auto;
-		margin-left: auto;
+.wrapper {	
+	display: block;
+	min-width: 700px;
+	max-width:1024px;
+	margin-right:auto;
+	margin-left: auto;
+	height: auto;
+	min-height: 100%;
 		}
 #ava{
 	float:right;
@@ -89,9 +92,12 @@ header{ position:relative;
 	}
 main{
 	margin-top:100px;
-	margin-bottom: 150px;
+	margin-bottom: 250px;
 	font-size:14px;
 	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	position: relative;
+	height: 100%;
+	min-height: 100%;
 	}
 footer{
 	background-color:#A67C52;
@@ -100,8 +106,16 @@ footer{
 	font-size:12px;
 	font-style: italic;
 	text-align:center;
-	padding: 3em;
-	
+	padding: 1em;
+	position: fixed;
+	width: auto;
+	right: 0;
+	left: 0;
+	bottom: 0;
+
+	}
+body {
+	height: 100%;	
 	}
 h1{
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -164,7 +178,12 @@ td {
 	padding-left: 1.5em;	
 }
 #time_changing {
-	font-weight: bold;
 	font-style: normal;
-	font-size: 15px;
+	font-size: 12px;
+	float: right;
+	padding-right: 300px;
+	padding-top: 12px;
+}
+#logo {
+	padding-left: 310px;
 }
