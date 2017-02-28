@@ -1,7 +1,16 @@
 @charset "utf-8";
 /* CSS Document */
+#banner {
+	margin-top: -170px;
+	margin-bottom: -120px;
+	height: 550px;
+	background-image: url(image/BanMai_Calligraphy.png);
+	background-repeat: no-repeat;
+	background-size: 550px;
+	background-position: center;
+}
 nav {background-color: #A67C52;
-	 height: 220px;
+	 height: 340px;
 	 text-align:center;
 	 font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	 padding-top: 3em;
@@ -24,9 +33,7 @@ nav a:hover {color: #FFF;
 	   		padding-left: 3em;
 	   		padding-right: 3em;
 			}
-#banner {
-	margin-bottom: 30px;
-}
+
 #gallery {
 	position: relative;
 	border: #A67C52 solid 2px;
@@ -183,8 +190,14 @@ table {
 
 td {
 	padding-top: 0.5em;
-	padding-left: 1.5em;	
+	padding-left: 1.5em;
+	padding-right: 1.5em;
 }
+tr:hover {
+	background-color: #FFE9C1;
+	border: #000 3px solid;
+}
+
 #time_changing {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-style: normal;
@@ -196,3 +209,53 @@ td {
 #logo {
 	padding-left: 310px;
 }
+
+/*----------------------------------------*/
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+    background-color: #A67C52;
+}
+
+/* Style the links inside the tab */
+div.tab a {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	padding-left: 8em;
+    float: left;
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+	border-top: 3px solid #A67C52;
+}
+
+/* Change background color of links on hover */
+div.tab a:hover {
+    background-color: #FFE9C1;
+	border-top: 3px solid #A67C52;
+}
+
+/* Create an active/current tablink class */
+div.tab a:focus, .active {
+    background-color: #fff;
+	border-top: 3px solid #A67C52;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+	background-color: #fff;
+	color: #000;
+	border-bottom: 3px solid #A67C52;
+}
+
+.tab {
+	font-size:14px;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+

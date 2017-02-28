@@ -9,8 +9,7 @@
 <body>
 
 	<nav>
-        <!-----<p id="tittle">Ban-Mai's Corner</p>-->
-		<img id="banner" src="image/banmaiscorner-banner.gif" height="130">
+		<div id="banner"></div>
        <div>
 			<a href="index.html">about me</a>  
 			<a href="cv.html">curriculum vitea</a> 
@@ -22,14 +21,15 @@
     	<img src="image/barner.gif" id="header-image">
     </header>
     <main class="wrapper">
-    	<h3>Your name</h3><br>
-        <input type="text" name="name" required="required" class="input_normal">
-        <h3>Your email</h3><br>
-        <input type="email" name="email" required="required" class="input_normal">
-        <h3>Your message</h3><br>
-        <textarea type="text" name="message" required class="input_message"></textarea>
+    	<h3>Your name *</h3><br>
+        <input id="inputname" type="text" name="name" required="required" class="input_normal" placeholder="your first and last name">
+        <h3>Your email *</h3><br>
+        <input id="inputemail" type="email" name="email" required="required" class="input_normal" placeholder="email@example.com"> 
+        <h3>Your message *</h3><br>
+        <textarea id="inputmessage" type="text" name="message" required class="input_message" placeholder="Please let me know what you are thinking."></textarea>
         <br>
-        <input type="submit" id="submit_button">
+        <input type="submit" id="submit_button" onClick="submit()">
+		<script src="form.js"></script>
     </main>
 
 
