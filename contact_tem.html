@@ -21,13 +21,56 @@
     	<img src="image/barner.gif" id="header-image">
     </header>
     <main class="wrapper">
-    	<h3>Your name *</h3><br>
+    	<!---name-->
+       <h3>Your name *</h3><br>
         <input id="inputname" type="text" name="name" required="required" class="input_normal" placeholder="your first and last name">
+        
+        <!---email-->
         <h3>Your email *</h3><br>
-        <input id="inputemail" type="email" name="email" required="required" class="input_normal" placeholder="email@example.com"> 
+        <input id="inputemail" type="email" name="email" required="required" class="input_normal" placeholder="email@example.com">
+        
+        <!---phone-->
+        <h3>Your phone number</h3><br>
+        <input id="inputphone" type="number" name="phone" class="input_normal" placeholder="1234567890">
+         
+         <!---currency-->
+         <h3>Your currency</h3><br>
+         <select name="currency" class="input_normal">
+		  <option value="US Dollar">US Dollar</option>
+		  <option value="CAN Dollar">CAN Dollar</option>
+		  <option value="HK Dollar">HK Dollar</option>
+		  <option value="Japanese Yen">Japanese Yen</option>
+		  <option value="Vietnam Dong">Vietnam Dong</option>
+		  <option value="other">Other</option>
+		</select>
+        
+         
+         <!--paying method-->
+         <h3>Your paying method</h3>
+         <form>
+		  <input type="radio" name="paying" value="visa" checked> Visa<br>
+		  <input type="radio" name="paying" value="master"> Master<br>
+		  <input type="radio" name="paying" value="American Express"> American Express<br>
+		  <input type="radio" name="paying" value="check"> Check<br>
+		  <input type="radio" name="paying" value="other"> Other<br>
+		</form>
+
+         <!---message-->
         <h3>Your message *</h3><br>
         <textarea id="inputmessage" type="text" name="message" required class="input_message" placeholder="Please let me know what you are thinking."></textarea>
         <br>
+        
+         <!--Language-->
+         <h3>Your language(s)</h3>
+         <form>
+		  <input type="checkbox" name="language" value="eng"> English<br>
+		  <input type="checkbox" name="language" value="vie"> Vietnames<br>
+		  <input type="checkbox" name="language" value="can"> Cantonese<br>
+		  <input type="checkbox" name="language" value="man"> Mandarin<br>
+		  <input type="checkbox" name="language" value="jap"> Japanese<br>
+		  <input type="checkbox" name="language" value="fre"> French<br>
+		</form>
+        
         <input type="submit" id="submit_button" onClick="submit()">
 		<script src="form.js"></script>
     </main>

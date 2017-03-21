@@ -144,6 +144,12 @@ h3{
 	font-size:20px;
 	font-weight:500;
 	}
+h4 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 13px;
+	font-weight: 300;
+	padding-left: 36px;
+}
 .input_normal{
 	height: 2em;
 	width:60%;
