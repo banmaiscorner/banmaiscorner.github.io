@@ -22,16 +22,17 @@
     </header>
     <main class="wrapper">
     	<!---name-->
-       <h3>Your name *</h3><br>
+       <h3>Your name * </h3><div id="name_alert" class="alert"></div><br>
         <input id="inputname" type="text" name="name" required="required" class="input_normal" placeholder="your first and last name">
+		<div class="name_alert"></div>
         
         <!---email-->
-        <h3>Your email *</h3><br>
+		<h3>Your email * </h3><div id="email_alert" class="alert"></div><br>
         <input id="inputemail" type="email" name="email" required="required" class="input_normal" placeholder="email@example.com">
         
         <!---phone-->
-        <h3>Your phone number</h3><br>
-        <input id="inputphone" type="number" name="phone" class="input_normal" placeholder="1234567890">
+		<h3>Your phone number *</h3> <div id="phone_alert" class="alert"> </div><br>
+        <input id="inputphone" type="number" name="phone" required="required" class="input_normal" placeholder="1234567890">
          
          <!---currency-->
          <h3>Your currency</h3><br>
@@ -54,9 +55,12 @@
 		  <input type="radio" name="paying" value="check"> Check<br>
 		  <input type="radio" name="paying" value="other"> Other<br>
 		</form>
+         
+         <h3>When do you want your project done? * </h3> <div id="date_alert" class="alert"></div> <br>
+         <input id="inputdate" type="date" name="date" required="required" class="input_normal" placeholder="mm/dd/yyyy">
 
          <!---message-->
-        <h3>Your message *</h3><br>
+		<h3>Your message * </h3> <div id="message_alert" class="alert"></div> <br>
         <textarea id="inputmessage" type="text" name="message" required class="input_message" placeholder="Please let me know what you are thinking."></textarea>
         <br>
         
