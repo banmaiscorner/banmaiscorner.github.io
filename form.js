@@ -38,5 +38,19 @@ function submit() {
 		
 	}
 	
+	//picked language
+	var checkboxes = document.getElementsByName('language');
+	var selected = [];
+	//array
+	for (var i=0; i<checkboxes.length; i++) {
+    	if (checkboxes[i].checked) {
+        	selected.push(checkboxes[i].value);
+    		}
+	}
+	//turn array to string
+	var selectedString=selected.join(", ");
+	//display string
+	document.getElementById("language_alert").innerHTML="You picked "+selectedString+" as your language(s)";
+	
 	document.getElementById("submit_button").addEventListener("click", submit, false);
 }
