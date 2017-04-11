@@ -14,6 +14,14 @@ function submit() {
 	if (email.value === "") {
 		document.getElementById("email_alert").innerHTML="Please fill in your email.";
 	}
+	//valid email
+	var mail_str=email.value;
+	var n = mail_str.search("@");
+	if (n===-1) {
+		document.getElementById("email_alert").innerHTML="Please fill in a valid email.";
+	}
+	
+	
 	//message alert
 	if (message.value === "") {
 		document.getElementById("message_alert").innerHTML="Please fill in your message.";
@@ -27,15 +35,16 @@ function submit() {
 	//phone alert
 	if (date === "") {
 		document.getElementById("date_alert").innerHTML="Please pick your date.";
-	} else {
+	} else if (date- new Date()>0) //pick a day in the future
+	{
 		var cal = new Date(date);
 		var m_Month =  cal.getMonth();
 		var m_date = cal.getDate();
 		var month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 		m_Month = month[m_Month];
 		document.getElementById("date_alert").innerHTML="You picked "+m_Month+" "+m_date+", "+cal.getFullYear()+" as the due date";
-		
-		
+	} else {
+		document.getElementById("date_alert").innerHTML="Please pick a day in the future."; //pick a day in the past
 	}
 	
 	//picked language
@@ -50,7 +59,12 @@ function submit() {
 	//turn array to string
 	var selectedString=selected.join(", ");
 	//display string
-	document.getElementById("language_alert").innerHTML="You picked "+selectedString+" as your language(s)";
+	if (selected.length>0) {
+		document.getElementById("language_alert").innerHTML="You picked "+selectedString+" as your language(s)"; //show languages picked
+	} else {
+		document.getElementById("language_alert").innerHTML="Please pick your language(s)"; //didn't pick 
+	}
+	
 	
 	document.getElementById("submit_button").addEventListener("click", submit, false);
 }
