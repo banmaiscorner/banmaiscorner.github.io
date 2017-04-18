@@ -68,3 +68,4 @@ function submit() {
 	
 	document.getElementById("submit_button").addEventListener("click", submit, false);
 }
+

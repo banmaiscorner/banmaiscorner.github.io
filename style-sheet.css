@@ -84,11 +84,18 @@ header{ position:relative;
 	margin-right:auto;
 	width:auto;}
 	   
-
+#GoogleMap {
+	/*float:right;*/
+	display:block;
+	min-height: 300px;
+	min-width: 450px;
+	margin-right:auto;
+	margin-left: auto;
+	background-color: aqua;
+}
 .wrapper {	
 	display: block;
-	min-width: 700px;
-	max-width:1024px;
+	max-width:80%;
 	margin-right:auto;
 	margin-left: auto;
 	height: auto;
@@ -151,8 +158,9 @@ h4 {
 	padding-left: 36px;
 }
 .input_normal{
+	display: flex;
 	height: 2em;
-	width:60%;
+	width:45%;
 	margin-top: -10px;
 	font-size:14px;
 	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
@@ -162,7 +170,7 @@ h4 {
 	}
 .input_message{
 	height: 15em;
-	width:80%;
+	width:45%;
 	margin-top: -10px;
 	font-size:14px;
 	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
