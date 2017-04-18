@@ -1,20 +1,24 @@
 // JavaScript Document
-var waitForUser;
+//var waitForUser;
 function geoTest() {
 	"use strict";
-	waitForUser = setTimeout(fail, 10000);
+	//waitForUser = setTimeout(fail, 10000);
 	if (navigator.geolocation) {
-		navigator.geolocation.getCurrentPosition(createMap, fail, {timeout: 10000});
+		navigator.geolocation.getCurrentPosition(createMap)
+
 	} else {
 		fail();
 	}
 }
 
+
 function createMap(position) {
 	"use strict";
-	clearTimeout(waitForUser);
+	//clearTimeout(waitForUser);
 	var Lat = position.coords.latitude;
 	var Lng = position.coords.longitude;
+
+
 	var mapOptions = {
 		center: new google.maps.LatLng(Lat, Lng), 
 		zoom: 10
