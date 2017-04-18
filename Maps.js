@@ -21,7 +21,7 @@ function createMap(position) {
 
 	var mapOptions = {
 		center: new google.maps.LatLng(Lat, Lng), 
-		zoom: 10
+		zoom: 15,
 	};
 	var map = new google.maps.Map(document.getElementById("GoogleMap"), mapOptions);
 }
