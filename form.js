@@ -68,7 +68,12 @@ function submit() {
 	
 	document.getElementById("submit_button").addEventListener("click", submit, false);
 }
+
 $(document).ready(function(){
-    $("#submit_button").click(function(){
-        $("#submit_button").animate({height: "200px"; width: "300";});
+	"use strict";
+    $("#submit_button").hover(function(){
+        $("#submit_button").animate({width: "30em"});
+    },function(){
+        $("#submit_button").animate({width: "15em"});
     });
+});

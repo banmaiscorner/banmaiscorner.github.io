@@ -186,7 +186,8 @@ h4 {
 	word-wrap:normal;
 	background-color:#A67C52;
 	border: none;
-	}
+	width: 15em;
+}
 .icon {
 	width: 2em;
 }
