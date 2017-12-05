@@ -234,6 +234,7 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+	
 	.nav_link1:link, .nav_link1:visited {
 		width: 40%;
 		padding-right: 35%;
