@@ -13,7 +13,7 @@
 	src: url(fonts/HelveticaLTStd-Bold.otf);
 }
 
-#banner {
+#banner_desktop {
 	max-width: 100%;
 	height: auto;
 	margin-left: auto;
@@ -22,8 +22,17 @@
 	position: relative;
 }
 
+#banner_tablet {
+	display: none;
+}
+
+#banner_phone {
+	display: none;
+}
 .nav_link1:link, .nav_link1:visited {
 	width: 10%;
+	padding-top:1%;
+	padding-bottom: .5%;
 	padding-left: 40%;
 	color: white;
 	text-decoration: none;
@@ -42,6 +51,8 @@
 
 .nav_link2:link, .nav_link2:visited {
 	width: 10%;
+	padding-top:1%;
+	padding-bottom: .5%;
 	padding-left: 5%;
 	padding-right: 35%;
 	color: white;
@@ -141,7 +152,41 @@ footer {
 	background-color:#F28322;
 }
 
+@media screen and (min-width: 1500px) {
+	.nav_link1:link, .nav_link1:visited {
+		font-size: 2em;
+		width: 10%;
+		padding-left: 40%;
+	}
+
+	.nav_link2:link, .nav_link2:visited {
+		font-size: 2em;
+		width: 10%;
+		padding-left: 5%;
+		padding-right: 35%;
+	}
+	
+}
+
+
 @media screen and (max-width: 1024px) {
+	#banner_tablet {
+		max-width: 100%;
+		height: auto;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		position: relative;
+	}
+	
+	#banner_desktop {
+		display: none;
+	}
+	
+	#banner_phone {
+		display: none;
+	}
+	
 	.nav_link1:link, .nav_link1:visited {
 		width: 20%;
 		padding-left: 40%;
@@ -158,11 +203,30 @@ footer {
 		display: block;
 		margin-bottom: 30%;
 	}
+	footer {
+		padding-bottom: 8%;
+	}
 
 
 }
 
 @media screen and (max-width: 768px) {
+	#banner_tablet {
+		display: none;
+	}
+	
+	#banner_desktop {
+		display: none;
+	}
+	
+	#banner_phone {
+		max-width: 100%;
+		height: auto;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		position: relative;
+	}
 	.nav_link1:link, .nav_link1:visited {
 		width: 20%;
 		font-size: 1em;
@@ -192,5 +256,8 @@ footer {
 	#portfolio {
 		display: block;
 		margin-bottom: 60%;
+	}
+	footer {
+		padding-bottom: 12%;
 	}
 }
