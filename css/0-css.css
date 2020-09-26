@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: "asap";
+	font-weight: normal;
+	src: url("../fonts/Asap-Regular.ttf");
+}
+
+@font-face {
+	font-family: "helvetica";
+	font-weight: bold;
+	src: url("../fonts/Asap-Bold.ttf");
+}
+
+								/*style starts here*/
+								/*style starts here*/
+								/*style starts here*/
+								/*style starts here*/
+								/*style starts here*/
+								/*style starts here*/
+
+
+/*body set up*/
+/*body set up*/
+/*body set up*/
+
+body {
+	font-family: "asap";
+	margin: auto;
+	font-size: 16px;
+	color: #939598;
+	display: block;
+	padding: 0px 45px;
+	min-height: 700px;
+	/*test background
+	background-color: aqua;*/
+}
+
+/*logo set up*/
+/*logo set up*/
+/*logo set up*/
+#logo {
+	font-size: 1.8em;
+	font-weight: bold;
+}
+
+
+/*nav set up*/
+/*nav set up*/
+/*nav set up*/
+
+nav{
+	display: block;
+	height: 12.5vh;
+	min-height: 70px;
+	max-height: 100px;
+	position: relative;
+}
+
+nav ul{
+	list-style-type: none;
+	position: absolute;
+	bottom: 0px;
+}
+
+nav li {
+	float: left;
+	display: block;
+	padding: 0px 19px;
+	line-height: 2.58em;
+}
+
+nav li:first-child{
+	padding-left: 0px;
+	margin-left:-43px;
+	line-height: 2.2em;
+}
+
+nav li a,
+nav li a:visited{
+	display: block;
+	color: #E07B00;
+}
+
+nav li a:hover{
+	color: #939598;
+	text-decoration: none;
+}

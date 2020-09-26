@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+#index{
+	display: block;
+	width: 1000px;
+	position: absolute;
+	top: 50vh;
+	margin: -160px 0px;
+}
+
+#introduction{
+	font-size: 4em;
+	font-weight: bold;
+	line-height: 1.2em;
+}
+
+#tagline{
+	color: #E07B00;
+}
+
+#call-to-action {
+	padding-bottom: 0em;
+	border-bottom: solid 6px;
+}
+#introduction-line {
+	display: block;
+	margin: 1.8em 0;
+}
