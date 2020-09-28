@@ -32,19 +32,24 @@ body {
 	color: #939598;
 	display: block;
 	padding: 0px 45px;
-	min-height: 700px;
-	/*test background
-	background-color: aqua;*/
 }
 
 /*logo set up*/
 /*logo set up*/
 /*logo set up*/
+
 #logo {
 	font-size: 1.8em;
 	font-weight: bold;
 }
 
+a#logo {
+	color: #E07B00;
+}
+
+a#logo:hover{
+	color: #939598;
+}
 
 /*nav set up*/
 /*nav set up*/
@@ -80,10 +85,39 @@ nav li:first-child{
 nav li a,
 nav li a:visited{
 	display: block;
-	color: #E07B00;
+	color: #939598;
 }
 
 nav li a:hover{
-	color: #939598;
+	color: #E07B00;
 	text-decoration: none;
+}
+
+/*media set up*/
+/*media set up*/
+/*media set up*/
+
+@media (max-width:551px) {
+	nav{
+		height: 12.5vh;
+		min-height: 116px;
+		max-height: 146px;
+	}
+}
+
+@media (max-width:551px) {
+	nav{
+		display: block;
+		position: relative;
+	}
+	#logo {
+		display: block;
+		width: 165px;
+		position: absolute;
+		bottom: 2.6em;
+		margin-bottom: -1em;
+	}
+	#portfolio-link {
+		margin-left: -61px;
+	}
 }

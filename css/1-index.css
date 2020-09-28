@@ -1,8 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 #index{
-	display: block;
-	width: 1000px;
 	position: absolute;
 	top: 50vh;
 	margin: -160px 0px;
@@ -22,7 +20,39 @@
 	padding-bottom: 0em;
 	border-bottom: solid 6px;
 }
-#introduction-line {
+
+#call-to-action a {
+	color: #939598;
+	text-decoration: none;
+}
+
+#introduction-paragraph {
 	display: block;
 	margin: 1.8em 0;
 }
+/*media set up*/
+/*media set up*/
+/*media set up*/
+
+@media (min-width:1440px) {
+	#index{
+		display: block;
+		width: 1000px;
+	}
+}
+
+@media (min-width: 1200px) {
+	#index{
+		display: block;
+		width: 1000px;
+	}
+}
+
+@media (max-width: 1199px) {
+	#index{
+		display: block;
+		width: 100%;
+		padding-right: 100px;
+	}
+}
+
