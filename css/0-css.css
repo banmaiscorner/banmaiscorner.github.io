@@ -97,19 +97,15 @@ nav li a:hover{
 /*media set up*/
 /*media set up*/
 
-@media (max-width:551px) {
+@media (max-width:767px) {
 	nav{
 		height: 12.5vh;
 		min-height: 116px;
 		max-height: 146px;
-	}
-}
-
-@media (max-width:551px) {
-	nav{
 		display: block;
 		position: relative;
 	}
+
 	#logo {
 		display: block;
 		width: 165px;
