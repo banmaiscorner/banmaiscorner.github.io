@@ -33,6 +33,7 @@ body {
 	color: #939598;
 	display: block;
 	padding: 0px 45px;
+        text-rendering:optimizeLegibility;
 }
 
 /*logo set up*/
