@@ -28,7 +28,8 @@
 body {
 	font-family: "asap";
 	margin: auto;
-	font-size: 16px;	
+	font-size: 16px;
+	font-weight: 400;
 	color: #939598;
 	display: block;
 	padding: 0px 45px;
@@ -107,10 +108,9 @@ nav li a:hover{
 	}
 
 	#logo {
-		display: block;
-		width: 165px;
 		position: absolute;
 		bottom: 2.6em;
+                display: block;
 		margin-bottom: -1em;
 	}
 	#portfolio-link {
