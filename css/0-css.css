@@ -97,7 +97,7 @@ nav li a:hover{
 /*media set up*/
 /*media set up*/
 
-@media (max-width:767px) {
+@media (max-width:720px) {
 	nav{
 		height: 12.5vh;
 		min-height: 116px;
