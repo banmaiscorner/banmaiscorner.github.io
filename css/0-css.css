@@ -9,7 +9,7 @@
 
 @font-face {
 	font-family: "helvetica";
-	font-weight: 700;
+	font-weight: 900;
 	src: url("../fonts/Asap-Bold.ttf");
 }
 
@@ -42,7 +42,7 @@ body {
 
 #logo {
 	font-size: 1.8em;
-	font-weight: 700;
+	font-weight: 900;
 }
 
 a#logo {
