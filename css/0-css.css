@@ -5,13 +5,14 @@
 	font-family: "asap";
 	font-weight: 400;
 	src: url("../fonts/Asap-Regular.ttf");
+	font-display: swap;
 }
 
 @font-face {
 	font-family: "asap";
 	font-weight: 900;
 	src: url("../fonts/Asap-Bold.ttf");
-        font-display: swap;
+	font-display: swap;
 }
 
 								/*style starts here*/
@@ -19,7 +20,7 @@
 								/*style starts here*/
 								/*style starts here*/
 								/*style starts here*/
-						/*style starts here*/
+								/*style starts here*/
 
 
 /*body set up*/
@@ -34,10 +35,7 @@ body {
 	color: #939598;
 	display: block;
 	padding: 0px 45px;
-        text-rendering: geometricPrecision;
-        -webkit-font-smoothing: antialiased; 
-        display: block;
-        width: 100%;
+	display: block;
 }
 
 /*logo set up*/
@@ -47,8 +45,6 @@ body {
 #logo {
 	font-size: 1.8em;
 	font-weight: 900;
-        text-rendering: geometricPrecision;
-        -webkit-font-smoothing: antialiased;
 }
 
 a#logo {
@@ -110,6 +106,10 @@ nav li a:hover{
 /*media set up*/
 
 @media (max-width:720px) {
+	body {
+		width: 100%;
+		padding: 0px 10px;
+	}
 	nav{
 		height: 12.5vh;
 		min-height: 116px;
@@ -121,15 +121,12 @@ nav li a:hover{
 	#logo {
 		position: absolute;
 		bottom: 2.6em;
-                display: block;
+		display: block;
 		margin-bottom: -1em;
 	}
 	#portfolio-link {
 		margin-left: -61px;
 	}
-}
 
-@media (max-width:720px) {
-        body {
-        }
 }
+       
