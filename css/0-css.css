@@ -119,6 +119,10 @@ nav li a:hover{
 	}
 
 	#logo {
+<<<<<<< Updated upstream
+=======
+		display: block;
+>>>>>>> Stashed changes
 		position: absolute;
 		bottom: 2.6em;
 		display: block;
