@@ -36,6 +36,7 @@ body {
 	display: block;
 	padding: 0px 45px;
         text-rendering: geometricPrecision;
+        -webkit-font-smoothing: subpixel-antialiased; 
 }
 
 /*logo set up*/
