@@ -119,15 +119,18 @@ nav li a:hover{
 	}
 
 	#logo {
-<<<<<<< Updated upstream
-=======
 		display: block;
->>>>>>> Stashed changes
 		position: absolute;
 		bottom: 2.6em;
-		display: block;
 		margin-bottom: -1em;
 	}
+	
+	nav ul{
+		list-style-type: none;
+		position: absolute;
+		bottom: 0px;
+	}
+	
 	#portfolio-link {
 		margin-left: -61px;
 	}
