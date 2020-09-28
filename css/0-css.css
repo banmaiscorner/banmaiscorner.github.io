@@ -5,14 +5,14 @@
 	font-family: "asap";
 	font-weight: 400;
 	src: url("../fonts/Asap-Regular.ttf");
-        font-display: swap;
+        font-display: fallback;
 }
 
 @font-face {
 	font-family: "helvetica";
 	font-weight: 900;
 	src: url("../fonts/Asap-Bold.ttf");
-        font-display: swap;
+        font-display: fallback;
 }
 
 								/*style starts here*/
