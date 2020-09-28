@@ -3,13 +3,13 @@
 
 @font-face {
 	font-family: "asap";
-	font-weight: normal;
+	font-weight: 400;
 	src: url("../fonts/Asap-Regular.ttf");
 }
 
 @font-face {
 	font-family: "helvetica";
-	font-weight: bold;
+	font-weight: 700;
 	src: url("../fonts/Asap-Bold.ttf");
 }
 
@@ -40,7 +40,7 @@ body {
 
 #logo {
 	font-size: 1.8em;
-	font-weight: bold;
+	font-weight: 700;
 }
 
 a#logo {
