@@ -34,7 +34,7 @@ body {
 	display: block;
 	padding: 0px 45px;
         text-rendering: geometricPrecision;
-        -webkit-font-smoothing: subpixel-antialiased; 
+        -webkit-font-smoothing: antialiased; 
 }
 
 /*logo set up*/
@@ -44,7 +44,7 @@ body {
 #logo {
 	font-size: 1.8em;
 	font-weight: 900;
-        -webkit-font-smoothing: subpixel-antialiased;
+        -webkit-font-smoothing: antialiased;
 }
 
 a#logo {
