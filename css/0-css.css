@@ -108,7 +108,7 @@ nav li a:hover{
 @media (max-width:720px) {
 	body {
 		width: 100%;
-		padding: 0px 50px;
+		padding: 0px 30px;
 	}
 	nav{
 		height: 12.5vh;
