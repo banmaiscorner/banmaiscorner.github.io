@@ -51,8 +51,7 @@
 @media (max-width: 1199px) {
 	#index{
 		display: block;
-		width: 100%;
-		padding-right: 100px;
+		width: 80%;
 	}
 }
 
