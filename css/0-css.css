@@ -83,6 +83,10 @@ nav li:first-child{
 	line-height: 2.2em;
 }
 
+nav li:last-child{
+	padding-right: 0px;
+}
+
 nav li a,
 nav li a:visited{
 	display: block;
