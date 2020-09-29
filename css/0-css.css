@@ -35,7 +35,14 @@ body {
 	color: #939598;
 	display: block;
 	padding: 0px 45px;
-	display: block;
+}
+
+h1 {
+	margin-left: -6px;
+	font-size: 8em;
+	font-weight: 900;
+	opacity: 0.14;
+	margin-bottom: -1.3rem;
 }
 
 /*logo set up*/
@@ -101,15 +108,40 @@ nav li a:hover{
 	text-decoration: none;
 }
 
-/*media set up*/
-/*media set up*/
-/*media set up*/
+								/*media set up*/
+								/*media set up*/
+								/*media set up*/
+
+/*media set up*/ /*desktop*/
+/*media set up*/ /*desktop*/
+/*media set up*/ /*desktop*/
+
+@media (min-width: 1200px) {
+	body{
+		width: 1100px;
+	}
+}
+@media (min-width: 1440px) {
+	body{
+		width: 1340px;
+	}
+}
+
+/*media set up*/ /*mobile*/
+/*media set up*/ /*mobile*/
+/*media set up*/ /*mobile*/
 
 @media (max-width:767px) {
 	body {
 		width: 100%;
 		padding: 0px 30px;
 	}
+	
+	h1 {
+		font-size: 5em;
+		margin-bottom: 2rem;
+	}
+	
 	nav{
 		height: 12.5vh;
 		min-height: 116px;

@@ -1,10 +1,5 @@
 @charset "utf-8";
 /* CSS Document */
-#index{
-	position: absolute;
-	top: 50vh;
-	margin: -160px 0px;
-}
 
 #introduction{
 	font-size: 4em;
@@ -35,22 +30,22 @@
 /*media set up*/
 
 @media (min-width:1440px) {
-	#index{
-		display: block;
+	#index-index{
+		margin-top: 20vh;
 		width: 1000px;
 	}
 }
 
-@media (min-width: 1200px) {
-	#index{
-		display: block;
+@media (min-width: 768px) {
+	#index-index{
+		margin-top: 20vh;
 		width: 1000px;
 	}
 }
 
-@media (max-width: 1199px) {
-	#index{
-		display: block;
+@media (max-width: 767px) {
+	#index-index{
+		margin-top: 3em;
 		width: 80%;
 	}
 }

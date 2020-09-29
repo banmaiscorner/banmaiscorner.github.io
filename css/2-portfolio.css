@@ -6,3 +6,35 @@
 	line-height: 35.2px;
 }
 
+#portfolio-album {
+	width:90%;
+	display: grid;
+	grid-template-columns: 31% 31% 31%;
+	grid-column-gap: 3.5%;
+	margin-top: 20vh;
+}
+
+a.project-cell:hover {
+	opacity: 0.5;
+}
+
+.portfolio-album-photo{
+	width:100%;
+}
+
+@media (max-width: 1199px) {
+	#portfolio-album{
+		grid-template-columns: 32% 32% 32%;
+		grid-column-gap: 2%;
+	}
+}
+
+@media (max-width:767px){
+	#portfolio-album {
+		width:90%;
+		display: grid;
+		grid-template-columns: 100%;
+		grid-row-gap: 1%;
+		margin-top: 3em;
+	}
+}

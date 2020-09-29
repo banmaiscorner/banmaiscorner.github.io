@@ -5,3 +5,57 @@
 	font-size: 1.8em;
 	line-height: 35.2px;
 }
+
+
+/**/
+
+#cv-start {
+	margin: 20vh 0;
+}
+
+#CV {
+	display: grid;
+	grid-template-columns: 180px auto;
+	grid-row-gap: 0.5em;
+}
+
+.CV-category {
+	color:#3D3D3D;
+	letter-spacing: 0.3px;
+	font-size: 1.05em;
+	margin-top: 0.6em;
+}
+.CV-title {
+	color:#3D3D3D;
+	display: block;
+	margin-top: 0.6em;
+	margin-bottom: 0.2em;
+}
+
+.long-paragraph p {
+	display: block;
+	margin-top: 0.5em;
+	margin-bottom: -0.1em;
+}
+
+.divider {
+	color:#585858;
+}
+
+@media (max-width:767px){
+	#cv-start {
+		margin: 3em 0;
+	}
+	
+	#CV {
+		display: grid;
+		grid-template-columns: 90%;
+		grid-row-gap: 0.5em;
+	}
+	
+	.CV-category {
+		color:#454545;
+		letter-spacing: 0.5px;
+		font-weight:900;
+	}
+}
