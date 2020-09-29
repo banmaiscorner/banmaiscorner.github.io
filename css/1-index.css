@@ -29,17 +29,17 @@
 /*media set up*/
 /*media set up*/
 
-@media (min-width:1440px) {
+@media (min-width:1200px) {
 	#index-index{
 		margin-top: 20vh;
 		width: 1000px;
 	}
 }
 
-@media (min-width: 768px) {
+@media (max-width: 1199px) {
 	#index-index{
 		margin-top: 20vh;
-		width: 1000px;
+		width: 90%;
 	}
 }
 
