@@ -11,6 +11,15 @@
 
 #cv-start {
 	margin: 20vh 0;
+	display: grid;
+	grid-template-columns: 180px auto;
+	position: relative;
+}
+
+#cv-start-paragraph{
+	position: absolute;
+	bottom: 0;
+	margin-left: 180px;
 }
 
 #CV {
@@ -40,6 +49,29 @@
 
 .divider {
 	color:#585858;
+}
+
+.tagline{
+	display: block;
+	width:247px;
+	font-size: 1.8em;
+	font-weight: 900;
+	color: #E07B00;
+	margin-top: 10vh;
+	margin-bottom: 16.5vh;
+	margin-left: 180px;
+	padding-bottom: 0;
+	padding-bottom: 0em;
+	border-bottom: solid 3px;
+}
+
+a.tagline:hover {
+	text-decoration: none;
+	color: #939598;
+}
+
+#portfolio-link{
+	font-size: 1.06em;
 }
 
 @media (max-width:767px){

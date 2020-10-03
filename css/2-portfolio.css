@@ -11,7 +11,7 @@
 	display: grid;
 	grid-template-columns: 31% 31% 31%;
 	grid-column-gap: 3.5%;
-	margin-top: 20vh;
+	margin: 20vh 0;
 }
 
 a.project-cell:hover {
@@ -20,6 +20,10 @@ a.project-cell:hover {
 
 .portfolio-album-photo{
 	width:100%;
+}
+
+#contact-link{
+	font-size: 1.06em;
 }
 
 @media (max-width: 1199px) {
