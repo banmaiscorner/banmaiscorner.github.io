@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*nav bar*/
+#portfolio-link {
+	font-size: 1.8em;
+	line-height: 35.2px;
+}
+/*nav bar*/
+
+.portfolio-object{
+	display: block;
+	height: 77vh;
+	margin-top: 3vh;
+	position: relative;
+}
+
+.portfolio-object img{
+	display: block;
+	height: 95%;
+	padding-bottom: 1%;
+}
+
+.portfolio-nav{
+	
+	display: block;
+	padding-top: 3vh;
+	margin-bottom: 3vh;
+}
+
+.portfolio-nav a img{
+	width: 70px;
+	margin-right: 1vh;
+	opacity: 0.3;
+}
+
+.portfolio-nav a img:hover{
+	opacity: 1;
+}
